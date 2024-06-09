@@ -1,0 +1,124 @@
+/* 導航欄的總體樣式 */
+#navBar {
+  z-index: 3;
+  background-color: transparent; /* 保持背景透明 */
+  opacity: 1;
+  width: 100%;
+}
+
+#gym {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 4px;
+}
+
+#gym h1 i {
+  margin-left: 8px;
+}
+
+/* 導航欄展開時活動鏈接的樣式 */
+.collapse a.active {
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: white;
+}
+
+.collapse a.active::after {
+  display: none;
+}
+
+/* 導航鏈接樣式 */
+.collapse a {
+  color: white;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  transition: all 0.2s ease-in;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.collapse a:hover {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  background-color: blueviolet;
+  border-radius: 20px;
+}
+
+/* 移除指定鏈接的斜線 */
+.collapse a.home::after,
+.collapse a[href='/about']::after,
+.collapse a[href='/features']::after,
+.collapse a[href='/contact']::after,
+.collapse a[href='/bmi']::after,
+.collapse a[href='/usercount']::after {
+  content: none;
+}
+
+/* 導航列表項目樣式 */
+.collapse li {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* 確保導航欄的彈性行為 */
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+/* 導航欄鏈接位置 */
+#navBar .nav-link {
+  position: relative;
+}
+
+/* 下拉菜單特定樣式 */
+.nav-item.dropdown .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.5rem;
+}
+
+.nav-item.dropdown .nav-link::after {
+  content: none; /* 移除下拉菜單觸發鏈接上的伪元素 */
+}
+
+/* 下拉菜單背景及邊框樣式 */
+.dropdown-menu {
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+}
+
+/* 下拉菜單項目樣式 */
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 0.2s ease-in;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 0;
+}
+
+/* 移除下拉菜單項目的選中背景色 */
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  background-color: transparent !important;
+  color: white;
+}
+
+/* 下拉菜單位置 */
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  float: none;
+}
+
+/* 在導航欄項目懸停時顯示下拉菜單 */
+.navbar-nav .dropdown:hover > .dropdown-menu {
+  display: block;
+}

@@ -1,0 +1,59 @@
+.ticket-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ticket-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.ticket-container input[type="date"],
+.ticket-container select,
+.ticket-container input[type="text"],
+.ticket-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.ticket-container select {
+  height: 40px;
+}
+
+.ticket-container textarea {
+  height: 120px;
+}
+
+.ticket-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticket-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Add styles for form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+

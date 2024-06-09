@@ -1,0 +1,60 @@
+/* Usercount */
+
+/* 設定 .user-count 容器的樣式 */
+.user-count {
+    display: flex; /* 使用 flex 布局 */
+    flex-direction: column; /* 子元素按列方向排列 */
+    align-items: center; /* 子元素水平居中 */
+    font-family: Arial, sans-serif; 
+    color: #333; 
+}
+
+/* 設定 .user-count 容器內每個 div 的樣式 */
+.user-count > div {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; /* 設定圓角 */
+    padding: 20px; 
+    margin: 10px; 
+    width: 300px; 
+    text-align: center; 
+}
+
+/* 設定 .user-count 容器內 div 中的 span 元素樣式 */
+.user-count > div span {
+    display: block; /* 設定為塊級元素 */
+    margin-bottom: 10px; /* 設定底部外邊距 */
+    font-size: 18px; /* 設定字體大小 */
+    font-weight: bold; /* 設定字體加粗 */
+}
+
+/* 設定 .user-count 容器內 div 中的 div 元素樣式 */
+.user-count > div div {
+    margin-bottom: 15px; 
+    font-size: 16px; 
+    color: #555; 
+}
+
+/* 設定 .user-count 容器內 button 元素樣式 */
+.user-count button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; /* 設定內邊距 */
+    border-radius: 5px; /* 設定圓角 */
+    cursor: pointer; /* 設定鼠標樣式為指針 */
+    margin: 5px; 
+    font-size: 16px; 
+}
+
+/* 設定當鼠標懸停在 .user-count 容器內的 button 元素上時的樣式 */
+.user-count button:hover {
+    background-color: #0056b3; 
+}
+
+/* 設定 .user-count 容器內具有 class "message" 的元素樣式 */
+.user-count .message {
+    color: red; 
+    font-size: 14px;
+    margin-top: 10px; 
+}

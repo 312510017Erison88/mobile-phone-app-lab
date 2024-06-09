@@ -1,0 +1,17 @@
+#about h2,
+#about h4 {
+  color: gray; 
+  font-family: 'Oswald', sans-serif; /* 設定字型為 Oswald，如果 Oswald 字型不可用，則使用系統預設的 sans-serif 字型 */
+}
+
+#about p {
+  font-family: Arial, Helvetica, sans-serif; /* 設定段落文字字型為 Arial，如果 Arial 字型不可用，則使用 Helvetica，如果 Helvetica 字型也不可用，則使用系統預設的 sans-serif 字型 */
+  color: #666; 
+  font-weight: 500; 
+}
+
+
+#about .about img {
+  width: 50%; /* 設定 `.about` 元素下的圖片寬度為父元素的一半 */
+  height: auto; /* 確保圖片按比例縮放 */
+}

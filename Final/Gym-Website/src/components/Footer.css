@@ -1,0 +1,143 @@
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../assets/image/bg1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 2rem;
+  color: #fff;
+}
+
+.footer h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: blueviolet;
+  margin-bottom: 1.5rem;
+}
+
+.footer h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.footer .link a:hover {
+  text-decoration: underline !important;
+}
+
+.footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.footer .footer-nav,
+.footer .footer-info {
+  margin-bottom: 2rem;
+}
+
+.footer .footer-nav h4,
+.footer .footer-info h4 {
+  margin-bottom: 1rem;
+}
+
+.footer .footer-nav p,
+.footer .footer-info p {
+  margin-bottom: 0.5rem;
+}
+
+.footer .footer-nav i,
+.footer .footer-info i {
+  margin-right: 0.5rem;
+}
+
+.footer .link a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer .link a:hover {
+  text-decoration: underline !important;
+}
+
+.border-dark {
+  border-color: #343a40 !important;
+}
+
+.footer .border-dark a:hover {
+  text-decoration: underline !important;
+}
+
+/* Back to Top */
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 20px; /* 調整位置 */
+  bottom: 20px; /* 調整位置 */
+  z-index: 11;
+  width: 30px; /* 調整寬度 */
+  height: 30px; /* 調整高度 */
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+
+.back-to-top.btn {
+  border: 2px solid blue;
+  color: blue;
+  display: inline-block;
+  font-weight: 50;
+  text-align: center;
+  padding: 0.2rem 0.3rem; /* 減少內邊距 */
+  font-size: 0.75rem; /* 減少字體大小 */
+  line-height: 1.5;
+  border-radius: 0;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.back-to-top.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(227, 28, 37, .5);
+}
+
+.back-to-top.btn:hover {
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
+  text-decoration: none;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px); /* 調整上下抖動距離 */
+  }
+}
+
+
+/* Flexbox styles for footer alignment */
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .col-lg-3, 
+.footer .col-sm-6 {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .container p {
+  margin: 0;
+}
+
+
+
+

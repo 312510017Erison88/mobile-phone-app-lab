@@ -1,0 +1,35 @@
+/* FAQ Section Styling */
+.faq {
+  background-color: #ffffff; 
+  padding: 50px 0; /* 上下 padding */
+}
+
+.faq h2 {
+  font-size: 2.5rem; /* 標題字體大小 */
+  text-align: center; /* 標題置中 */
+  color: #007bff; 
+  margin-bottom: 40px; /* 下方間距 */
+}
+
+.faq .accordion-button {
+  background-color: #007bff; 
+  color: #ffffff; 
+  border: none; /* 移除邊框 */
+}
+
+.faq .accordion-button:hover {
+  background-color: #0056b3; /* 深藍色懸停背景顏色 */
+}
+
+.faq .accordion-item {
+  border: none; /* 移除邊框 */
+}
+
+.faq .accordion-collapse {
+  background-color: #ffffff; 
+  border-top: 1px solid #007bff; /* 藍色頂部邊框 */
+}
+
+.faq .accordion-body {
+  color: #343a40; 
+}

@@ -1,0 +1,53 @@
+/* General Section Styling */
+#choseus {
+  padding-top: 3rem; /* 上方間距為 3rem */
+  padding-bottom: 3rem; /* 下方間距為 3rem */
+  background-color: #f8f9fa; 
+}
+
+#choseus h2 {
+  font-family: 'Oswald', sans-serif; /* 使用 Oswald 字型，如果 Oswald 不可用，則使用系統預設的 sans-serif 字型 */
+  font-weight: bold; 
+  color: #343a40; 
+}
+
+#choseus .col-lg-3,
+#choseus .col-md-6 {
+  margin-bottom: 2rem; /* 底部間距為 2rem */
+}
+
+/*choseus 圓形區域*/
+#choseus .rounded-circle {
+  width: 100px; 
+  height: 100px; 
+  background-color: #007bff; 
+  display: flex; /* 使用 Flexbox 佈局 */
+  align-items: center; /* 垂直置中 */
+  justify-content: center; /* 水平置中 */
+}
+
+#choseus .rounded-circle h1 {
+  margin: 0; 
+  color: white; 
+  font-size: 2rem; 
+}
+
+#choseus h3 {
+  font-family: 'Oswald', sans-serif; /* 使用 Oswald 字型，如果 Oswald 不可用，則使用系統預設的 sans-serif 字型 */
+  font-weight: bold; 
+  color: #343a40; 
+}
+
+#choseus p {
+  font-family: Arial, Helvetica, sans-serif; /* 使用 Arial 字型，如果 Arial 不可用，則使用 Helvetica，如果 Helvetica 也不可用，則使用系統預設的 sans-serif 字型 */
+  color: #666; 
+  font-weight: 500; 
+  text-align: center; 
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+  #section4 .col-md-6 {
+    margin-bottom: 2rem; /* 在最大寬度小於 767px 時，`.col-md-6` 元素的底部間距為 2rem */
+  }
+}

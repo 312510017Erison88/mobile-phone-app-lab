@@ -1,0 +1,14 @@
+.component-button-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.component-button-panel > div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+

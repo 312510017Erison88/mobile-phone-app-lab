@@ -1,0 +1,34 @@
+/* Contact Section Styling */
+#contact {
+    background-color: #f8f9fa; 
+  }
+  
+  #contact h4,
+  #contact h2,
+  #contact .bg-primary p {
+    color: #007bff; 
+  }
+  
+  #contact .bg-primary {
+    background-color: #ffffff !important; 
+  }
+  
+  #contact .bg-primary i {
+    color: #007bff; 
+  }
+  
+  #contact .form-control {
+    border-color: #007bff; 
+  }
+  
+  #contact .btn {
+    background-color: #007bff;
+    border-color: #007bff; 
+    color: #ffffff; 
+  }
+  
+  #contact .btn:hover {
+    background-color: #0056b3; /* 深藍色懸停背景顏色 */
+    border-color: #0056b3; /* 深藍色懸停邊框顏色 */
+  }
+  

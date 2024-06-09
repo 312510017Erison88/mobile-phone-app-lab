@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Erison Sung</title>
+    <!-- This imports the CSS stylesheet -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <!-- insert page content here -->
+  <header>
+      <h1>Hello Japan!</h1>
+  </header>
+
+  <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Projects</a>
+            <ul>
+                <li><a href="https://github.com/312510017Erison88/college-project/blob/main/%E4%BA%A4%E5%A4%A7-%E5%B0%88%E9%A1%8C%E5%A0%B1%E5%91%8A%E6%91%98%E8%A6%81-%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E9%81%94%E7%84%A1%E6%8E%A5%E8%A7%B8%E5%BC%8F%E5%81%B5%E6%B8%AC%E8%84%88%E6%90%8F.pdf">Non-contact Pulse Detection</a></li>
+                <li><a href="https://github.com/312510017Erison88/college-project/blob/main/%E4%BA%A4%E5%A4%A7-%E5%B0%88%E9%A1%8C%E5%A0%B1%E5%91%8A%E6%91%98%E8%A6%81-%E4%B8%8D%E5%90%8C%E9%80%80%E7%81%AB%E6%BA%AB%E5%BA%A6%E8%A3%BD%E6%88%90%E5%B0%8DHf0.5Zr0.5O2%E9%90%B5%E9%9B%BB%E7%89%B9%E6%80%A7%E7%9A%84%E5%BD%B1%E9%9F%BF.pdf">Ferroelectric Properties</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+            <ul>
+              <li><a href="https://iee.nycu.edu.tw/tw/teacher/p1.php?num=91&page=1&kind=8">My Professor</a></li>
+            </ul>
+        </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Hi, I'm Erison Sung  </h2>
+    <img src="test.jpg"
+        alt="Erison profile picture" id="profile-picture">
+
+    <h4>My Research Project:</h4>
+    <p>
+      1. Non-contact Pulse Detection using Millimeter Wave Radar <br> 
+      since Sept 2019 - June 2023 <br>
+      2. Effects of Annealing Temperatures on Ferroelectric Properties of HZO <br>
+      since Jan 2021 - July 2022
+    </p>
+
+    <h4>My skills:</h4>
+    <p>
+      Technical Skills: C/C++, Verilog, HSpice, Python, Raspberry Pi, MATLAB
+      
+    </p>
+      Language Certifications: TOEIC 845
+
+  </main>
+
+
+<button id="toggle-form-btn" class="show-form-btn" onclick="toggleContactForm()">Contact Me</button>
+
+<form class="contact-form" id="contactForm" action="https://www.youtube.com/shorts/nK5dgKVO7gY">
+  <h2>Contact Us</h2>
+  <label for="fname">Your Name:</label>
+  <input type="text" id="fname" name="fname" required><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="phone">Phone Number:</label>
+  <input type="text" id="phone" name="phone"><br>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea><br>
+
+  <input type="submit" value="Submit and get Surprise!">
+</form>
+
+<script>
+  let formVisible = false;
+
+  function toggleContactForm() {
+    const contactForm = document.getElementById('contactForm');
+    const toggleButton = document.getElementById('toggle-form-btn');
+
+    formVisible = !formVisible;
+    if (formVisible) {
+      contactForm.classList.add('show');
+      toggleButton.textContent = 'Back';
+    } else {
+      contactForm.classList.remove('show');
+      toggleButton.textContent = 'Contact Me';
+    }
+  }
+</script>
+
+ 
+
+  <footer>
+    <a href="https://github.com/312510017Erison88">Github Link</a>
+  </footer>
+
+</body>
+</html>

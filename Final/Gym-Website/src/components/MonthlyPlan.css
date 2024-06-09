@@ -1,0 +1,47 @@
+/* Monthly Plan */
+#monthlyplan {
+  background-color: #f3f5f9; /* 背景顏色 */
+  padding: 80px 0; /* 調整上下間距 */
+}
+
+.ps-item {
+  background-color: #fff; /* 卡片背景顏色 */
+  border-radius: 8px; /* 圓角 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 陰影 */
+  padding: 40px 20px; /* 內邊距 */
+  transition: transform 0.3s ease-in-out; /* 滑入效果 */
+}
+
+.ps-item:hover {
+  transform: translateY(-10px); /* 滑入效果 */
+}
+
+.pi-price h2 {
+  color: #007bff; /* 價格文字顏色 */
+}
+
+.pi-price .small-dollar {
+  font-size: 0.7em; /* 價格符號字體大小 */
+}
+
+.ps-item ul {
+  list-style-type: none; /* 移除項目符號 */
+  padding-left: 0; /* 左側內邊距 */
+}
+
+.ps-item ul li {
+  margin-bottom: 10px; /* 項目間距 */
+}
+
+.btn {
+  background-color: #007bff; /* 按鈕背景顏色 */
+  color: #fff; /* 按鈕文字顏色 */
+  border: none; /* 移除邊框 */
+  border-radius: 0; /* 圓角 */
+  padding: 10px 20px; /* 內邊距 */
+  transition: background-color 0.3s ease-in-out; /* 按鈕背景顏色變化效果 */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* 滑鼠懸停時的背景顏色 */
+}

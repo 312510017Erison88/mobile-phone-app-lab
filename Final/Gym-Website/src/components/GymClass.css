@@ -1,0 +1,56 @@
+/* Gym Class Section Styling */
+.gym-class {
+  margin-bottom: 3rem;
+}
+
+.gym-box {
+  background-color: #343a40; /* 深色背景 */
+  padding: 3rem 2rem;
+  height: 100%;
+}
+
+.gym-box h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem; /* 設置字體大小 */
+  font-weight: bold;
+}
+
+.gym-box p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+.gym-box i {
+  font-size: 4rem; /* 調整圖標大小 */
+  margin-bottom: 1rem;
+  color: #ffdd57; /* 設置圖標顏色 */
+}
+
+.gym-box .btn {
+  border: 2px solid #ffdd57; /* 設置按鈕邊框顏色 */
+  color: #ffdd57; /* 設置按鈕字體顏色 */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.gym-box .btn:hover {
+  background-color: #ffdd57; /* 設置按鈕懸停背景顏色 */
+  color: #343a40; /* 設置按鈕懸停字體顏色 */
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+  .gym-box {
+    padding: 2rem 1rem;
+  }
+  .gym-box h3 {
+    font-size: 2rem;
+  }
+  .gym-box p {
+    font-size: 0.9rem;
+  }
+}
+
